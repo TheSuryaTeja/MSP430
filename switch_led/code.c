@@ -12,9 +12,15 @@ while(1)
 	
 	{
 
-    	if(P1IN & BIT6) 
+    	if(P1IN & BIT6) {
+
+            //uncomment the delay to avoid debouncing errors.
+           // __delay_cycles(20000); // delay
+
         	while(P1IN & BIT6) 	// while the switch is pressed
             	 P1OUT |= BIT7; 	// set P1.7 as high
+        }
+        
     	else
         	P1OUT &= ~BIT7;    	// set P1.7 as low
 	}
