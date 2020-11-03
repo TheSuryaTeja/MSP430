@@ -14,7 +14,7 @@ while(1)
 
     	if(P1IN & BIT6) {
 
-            //uncomment the delay to avoid debouncing errors.
+            // uncomment the delay to avoid debouncing errors.
            // __delay_cycles(20000); // delay
 
         	while(P1IN & BIT6) 	// while the switch is pressed
