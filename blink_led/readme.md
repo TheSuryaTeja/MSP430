@@ -1,4 +1,4 @@
-# USING A SWITCH
+# Blink LED
 
 This is a Embedded-C code for blinking an LED with MSP430G2553
 
