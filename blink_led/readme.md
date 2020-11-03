@@ -1,6 +1,6 @@
 # Blink LED
 
-This is a Embedded-C code for blinking an LED with MSP430G2553
+This is an embedded-C code for blinking an LED with MSP430G2553 microcontroller
 
 ## Simulation
 
