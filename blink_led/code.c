@@ -3,9 +3,9 @@
 
 int main(void)
 {
-    WDTCTL = WDTPW | WDTHOLD;   // stop Watch dog timer
+    WDTCTL = WDTPW | WDTHOLD;       // stop Watch dog timer
 
-    P1DIR |= BIT7; 				//P1.7 set as output
+    P1DIR |= BIT7; 			//P1.7 set as output
 
 while(1){
 
