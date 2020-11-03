@@ -11,7 +11,7 @@ while(1){
 
     volatile unsigned long i;
 
-    P1OUT |= BIT7; 				// P1.7 set to high
+    P1OUT |= BIT7; 			// P1.7 set to high
     for(i=0;i<1000;i++); 		// delay
 
     P1OUT &= ~BIT7;    			// P1.7 set to low
